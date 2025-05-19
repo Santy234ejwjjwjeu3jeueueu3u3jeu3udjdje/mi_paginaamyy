@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(93, 243, 91);
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px); /* Ajusta la altura sin contar la barra de navegación */
+  }
+  
+  .frame {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .frame1 {
+    background-color: #e010d3; /* morado claro */
+  }
+  
+  .frame2 {
+    background-color: #e25576; /* rosado pastel */
+  }
+  
+  .frame3 {
+    background-color: #40E0D0; /* turquesa */
+  }
+  
+  .videos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .juego {
+    margin: 15px 0;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"] {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #e25576;
+  }
+  
+  .formulario input[type="submit"] {
+    padding: 8px 12px;
+    background-color: #333;
+    color: rgb(17, 134, 180);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .formulario input[type="submit"]:hover {
+    background-color: #555;
+  }
+  .snoopy.jpg{
+    text-align: right;
+  }
+  
